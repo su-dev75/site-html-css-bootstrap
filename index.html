@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!--Meta tags required-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yoga Studio: Les bienfaits du yoga sous toutes ses formes! 
+       Plongez dans le monde de la Santé & Fitness! Venez decouvrir notre univer!">
+
+    <!--Bootstrap, CSS links-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Yoga Studio</title>
+
+  </head>
+    <body data-bs-spy="scroll" data-bs-target=".navbar">
+      <header>
+        <!--Navbar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#accueil">
+              <img src="img/logo_yoga-studio.png" alt="Logo-yoga-studio" width="30" height="30"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#cours" class="nav-link">Cours</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#galerie" class="nav-link">Galerie</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>  
+              <!-- Boutton modal --> 
+              <button type="button" class="btn btn-brand" data-bs-toggle="modal"
+               data-bs-target="#myModal">événement
+              </button> 
+            </div>
+          </div>    
+        </nav>
+          <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title fs-5s" id="exampleModalLabel">événement à venir</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body fs-5"> 
+                      <p>Le 1er mai 2023, de 10h à 18h, nous organisons une journée de Yoga! L'événement aura lieu au parc Monceau à Paris. Préparez-vous à de nombreuses surprises!
+                      Venez nombreux!!!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermez</button>
+                      
+                      <a href="evenement.html" class="btn btn-brand">Vers l'événement</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </header>
+    <main>
+      <!--Home -->
+      <div id="accueil" class="accueil vh-100 d-flex aline-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="intro col-lg-7">
+              <h1 class="display-4">Yoga Studio</h1>
+              <p id="p1" class="text-white my-3">
+                Plongez dans le monde de <br>la Santé & Fitness</p>
+              <a href="#contact" class="btn btn-brand">Contactez-nous</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Courses-->
+      <section id="cours">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 section-intro">
+              <h2>Nos Cours</h2>
+              <div class="hline"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 p-4">
+              <div class="icon-box">
+                <img src="img/hatha-yoga.png" alt="hatha-yoga">
+              </div>
+              <h3 class="title-sm mt-4">Hatha Yoga</h3>
+              <p>
+                Le yoga Hahta est une méthode fondatrice simple qui s’adresse
+                aussi bien à des débutants qu’à des personnes expérimentées, qui
+                sont à la recherche d’un yoga doux. En effet, le yoga Hahta fait
+                partie des yogas les plus faciles d’accès. Il consiste à adopter
+                les postures de yoga de base dans le calme, sans forcer et à se
+                concentrer afin de ressentir les bienfaits de chaque posture.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-4">
+              <div class="icon-box">
+                <img src="img/anusara-yoga.png" alt="anusara-yoga">
+              </div>
+              <h3 class="title-sm mt-4">Anusara Yoga</h3>
+              <p>
+                Ouvert à tous, le yoga Anusara est une méthode récente car elle
+                date de 1997 et a été créée par un américain nommé John Friend.
+                Le but de ce yoga est de faire ressortir toute la bonté et la
+                gentillesse qu’il y a en soi et de faire sortir la même chose
+                chez les autres personnes. Le yoga Anusara se sert de la
+                méditation accompagnée de chants ou de récits pour atteindre une
+                plus grande positivité.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-4">
+              <div class="icon-box">
+                <img src="img/bikram-yoga.png" alt="bikram-yoga">
+              </div>
+              <h3 class="title-sm mt-4">Bikram Yoga</h3>
+              <p>
+                Le yoga Bikram ne s’adresse pas à tout le monde et est pratiqué
+                en général par des personnes qui souhaitent améliorer leurs
+                performances physiques. Le but du yoga Bikram est de pousser le
+                corps à l’extrême afin de le faire transpirer pour lui permettre
+                d’éliminer toutes les mauvaises substances. Les personnes qui
+                ont peu de force physique devraient éviter ce type de yoga.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-4">
+              <div class="icon-box">
+                <img src="img/intuitive-yoga.png" alt="intuitive-yoga">
+              </div>
+              <h3 class="title-sm mt-4">Intuitive Yoga</h3>
+              <p>
+                Imprégné de la pure tradition indienne, le yoga Intégral, aussi
+                appelé le yoga Purna a été repris et enseigné par Sri Aurobindo
+                dans les années 1900. Le but du yoga Intégral est de trouver une
+                harmonie dans tous les aspects de la vie, la transformation et
+                la guérison. La pratique du yoga Intégral vise à regrouper tous
+                les types de yoga pour arriver à une conscience supra mentale.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-4">
+              <div class="icon-box">
+                <img src="img/kundalini-yoga.png" alt="kundalini-yoga">
+              </div>
+              <h3 class="title-sm mt-4">Kundalini Yoga</h3>
+              <p>
+                La pratique du yoga Kundalini a été enseignée en Occident par
+                yogi Bhajan et n’est pas adapté à tous.. Le but du yoga
+                Kundalini est d’éveiller sa conscience et de revenir à un état
+                plus spirituel par le biais d’un travail énergétique et
+                corporel. Ce yoga originel permet de réchauffer le corps pour
+                mieux faire le point sur des sentiments enfouis et certains
+                blocages.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 p-4">
+              <div class="icon-box">
+                <img src="img/vanyasa-yoga.png" alt="vanyasa-yoga">
+              </div>
+              <h3 class="title-sm mt-4">Vanyasa Yoga</h3>
+              <p>
+                Dynamique, le yoga Vinyasa est inspiré du yoga Ashtanga qui
+                laisse place à la créativité mais qui n’est pas adapté à tous
+                car il demande de repousser ses limites. Athlétique et intense,
+                le yoga Vinyasa joue sur la coordination entre le souffle et le
+                mouvement. Esthétique, il est très populaire car il permet
+                notamment de tonifier et sculpter le corps.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Portfolio-->
+      <section id="galerie" class="row g-6">
+        <div class="row">
+          <div class="col-12 section-intro">
+            <h2>Galerie</h2>
+            <div class="hline"></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="img/p1.jpg" alt="yoga-studio">
+            <div class="portfolio-overlay">
+              <div><h3>Yoga Studio</h3></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="img/p2.jpg" alt="yoga-studio">
+            <div class="portfolio-overlay">
+              <div><h3>Yoga Studio</h3></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="img/p3.jpg" alt="yoga-studio">
+            <div class="portfolio-overlay">
+              <div><h3>Yoga Studio</h3></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="img/p4.jpg" alt="yoga-studio">
+            <div class="portfolio-overlay">
+              <div><h3>Yoga Studio</h3></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="img/p5.jpg" alt="yoga-studio">
+            <div class="portfolio-overlay">
+              <div><h3>Yoga Studio</h3></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-item">
+            <img src="img/p6.jpg" alt="yoga-studio">
+            <div class="portfolio-overlay">
+              <div><h3>Yoga Studio</h3></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contact-->
+      <section id="contact" class="bg-cover text-white">
+        <div class="overlay">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center">
+                  <h2>Contact</h2>
+                  <div class="hline"></div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-8 m-auto">
+                <form action="#" class="row g-4">
+                   <div class="form-group col-md-6"><small>Nom</small>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6"><small>E-mail</small>
+                      <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group col-md-12"><small>Objet</small>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-12"><small>Message</small>
+                        <textarea
+                           cols="30"
+                           rows="4"
+                           class="form-control"></textarea>
+                    </div>
+                  <div class="text-center">
+                  <button type="submit" class="btn btn-brand">Envoyer</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>    
+      </section>   
+    </main>
+    <!--Footer-->
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-4">
+              <h5 class="logo-text">Yoga Studio</h5>
+              <p>Rerouvez nous sur:</p>
+              <div class="social-icons">
+                <a href="#"><img src="img/icon-facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="img/icon-instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="img/icon-twitter.svg" alt="twitter"></a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="title-sm">Menu</h5>
+              <div class="footer-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#cours">Cours</a>
+                <a href="#galerie">Galerie</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="title-sm">Informations</h5>
+              <div class="footer-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Licences</a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="title-sm">Contact</h5>
+              <div class="footer-links">
+                <p class="mb">97 Bd Voltaire Asnières sur Seine 92600 France</p>
+                <p class="mb">+33 9 50 37 86 54</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between gy-3">
+            <div class="col-md-6">
+              <p class="mb-0">Copyright © 2023</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">Crée avec❤️par Salza.u</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--JavaScript Bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
